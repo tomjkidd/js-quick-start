@@ -1,0 +1,13 @@
+<h1>Create User</h1>
+<div class="alert alert-info" role="alert">
+    <p style="margin-bottom: 5px;"><small>Enter the <code>First</code> and <code>Last</code> name of the person that you would like to create.<small></p>
+    <div class="form-group">
+        <label for="">First Name</label>
+        <input type="text" class="form-control" id="first" placeholder="Enter firstname" data-bind="value: $data.First">
+    </div>
+    <div class="form-group">
+        <label for="">Last Name</label>
+        <input type="text" class="form-control" id="last" placeholder="Enter lastname" data-bind="value: $data.Last">
+    </div>
+    <button type="" class="btn btn-default" data-bind="click: $data.SubmitClickHandler">Submit</button>
+</div>

@@ -1,0 +1,13 @@
+<h1>Lookup User</h1>
+<div class="alert alert-info" role="alert">
+    <p style="margin-bottom: 5px;"><small>Enter the <code>Id</code> of the user that you would like to query for.<small></p>
+    <div class="form-group">
+        <label for="">User Id</label>
+        <input type="text" class="form-control" id="user" placeholder="Enter User Id" data-bind="value: $data.UserId">
+    </div>
+    <button type="" class="btn btn-default" data-bind="click: $data.SubmitClickHandler">Submit</button>
+    <div style="margin-top: 10px; text-align: center; padding: 4px 0px; font-size: 12px;" data-bind="css: $data.BgClass">
+        <span class="glyphicon" data-bind="css: $data.IconClass"></span>
+        <span data-bind="text: $data.LookupMsg" ></span>
+    </div>
+</div>
